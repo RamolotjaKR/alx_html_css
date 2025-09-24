@@ -1,0 +1,48 @@
+/* Basic CSS for ALX HTML/CSS project */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+header, main, footer {
+    margin: 20px auto;
+    max-width: 900px;
+}
+header ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+header ul li {
+    display: inline;
+}
+header ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+footer {
+    text-align: center;
+    color: #555;
+    font-size: 0.9em;
+    margin-top: 40px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid #ccc;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+article img {
+    display: block;
+    margin: 20px 0;
+    max-width: 100%;
+    height: auto;
+}
