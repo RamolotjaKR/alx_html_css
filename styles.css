@@ -1,0 +1,26 @@
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	flex: auto;
+	width: 100%;
+	height: auto;
+}
+
+article {
+	flex: 2;
+	overflow-y: auto;
+	padding-right: 20px;
+}
+
+aside {
+	flex: 1;
+	overflow-y: auto;
+	padding-left: 20px;
+}
