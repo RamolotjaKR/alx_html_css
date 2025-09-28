@@ -404,3 +404,114 @@
 	bottom: 36.71%;
 	background: url(Image);
 }
+
+/* part_1_testimonials */
+.part-1-testimonials {
+	position: absolute;
+	width: 1440px;
+	height: 392px;
+	left: -1px;
+	top: 1093px;
+}
+
+/* background (testimonials) */
+.testimonials-background {
+	position: absolute;
+	width: 1440px;
+	height: 392px;
+	left: -1px;
+	top: 1093px;
+	background: #C271FF;
+}
+
+/* testimonial */
+.testimonial {
+	position: absolute;
+	width: 943px;
+	height: 160px;
+	left: 259px;
+	top: 1201px;
+}
+
+/* avatar (testimonial) */
+.testimonial-avatar {
+	position: absolute;
+	width: 160px;
+	height: 160px;
+	left: 259px;
+	top: 1201px;
+}
+
+/* mask (testimonial) */
+.testimonial-mask {
+	position: absolute;
+	width: 160px;
+	height: 160px;
+	left: 259px;
+	top: 1201px;
+	background: #FFFFFF;
+}
+
+/* Bitmap (testimonial) */
+.testimonial-bitmap {
+	position: absolute;
+	width: 394px;
+	height: 341px;
+	left: 142px;
+	top: 1176px;
+	background: url(Image);
+}
+
+/* text (testimonial) */
+.testimonial-text {
+	position: absolute;
+	width: 730px;
+	height: 158px;
+	left: 472px;
+	top: 1203px;
+}
+
+/* weather presenter */
+.weather-presenter {
+	position: absolute;
+	height: 34px;
+	left: 0%;
+	right: 77.4%;
+	top: calc(50% - 34px/2 + 62px);
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 34px;
+	color: #FFFFFF;
+}
+
+/* Person Name */
+.person-name {
+	position: absolute;
+	height: 34px;
+	left: 0%;
+	right: 82.33%;
+	top: calc(50% - 34px/2 + 28px);
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 34px;
+	color: #FFFFFF;
+}
+
+/* « Those tutorials ar */
+.testimonial-quote {
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 56.96%;
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 34px;
+	color: #FFFFFF;
+}
