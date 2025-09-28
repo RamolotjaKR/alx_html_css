@@ -515,3 +515,356 @@
 	line-height: 34px;
 	color: #FFFFFF;
 }
+
+/* part_2_tutorials */
+.part-2-tutorials {
+	position: absolute;
+	width: 1228px;
+	height: 450px;
+	left: 106px;
+	top: 1572px;
+}
+
+/* Most popular tutorials */
+.most-popular-tutorials {
+	position: absolute;
+	height: 40px;
+	left: 39.25%;
+	right: 36.81%;
+	top: calc(50% - 40px/2 - 205px);
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 40px;
+	text-align: center;
+	color: #071629;
+}
+
+/* tuto_1 */
+.tuto-1 {
+	position: absolute;
+	left: 4.72%;
+	right: 74.51%;
+	top: 25.56%;
+	bottom: 0%;
+}
+
+/* tuto_2 */
+.tuto-2 {
+	position: absolute;
+	left: 28.01%;
+	right: 51.22%;
+	top: 25.56%;
+	bottom: 0%;
+}
+
+/* tuto_3 */
+.tuto-3 {
+	position: absolute;
+	left: 51.22%;
+	right: 28.01%;
+	top: 25.56%;
+	bottom: 0%;
+}
+
+/* tuto_4 */
+.tuto-4 {
+	position: absolute;
+	left: 74.43%;
+	right: 4.8%;
+	top: 25.56%;
+	bottom: 0%;
+}
+
+/* tutorial background */
+.tutorial-background {
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 4px rgba(7, 22, 41, 0.178458);
+	border-radius: 5px;
+}
+
+/* tutorial avatar */
+.tutorial-avatar {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 13px;
+	top: 261px;
+}
+
+/* tutorial mask */
+.tutorial-mask {
+	position: absolute;
+	left: 5.1%;
+	right: 83.14%;
+	top: 77.91%;
+	bottom: 13.13%;
+	background: #FFFFFF;
+}
+
+/* tutorial image */
+.tutorial-img {
+	position: absolute;
+	left: 5.1%;
+	right: 83.14%;
+	top: 77.91%;
+	bottom: 13.13%;
+	background: url(Image);
+}
+
+/* tutorial author */
+.tutorial-author {
+	position: absolute;
+	height: 27px;
+	left: 21.96%;
+	right: 44.31%;
+	top: calc(50% - 27px/2 + 109px);
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 27px;
+	color: #C271FF;
+}
+
+/* tutorial time */
+.tutorial-time {
+	position: absolute;
+	height: 27px;
+	left: 78.04%;
+	right: 8.63%;
+	top: calc(50% - 27px/2 + 143px);
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 27px;
+	text-align: right;
+	color: #C271FF;
+}
+
+/* tutorial rating */
+.tutorial-rating {
+	position: absolute;
+	width: 107px;
+	height: 15px;
+	left: 13px;
+	top: 305px;
+}
+
+/* tutorial star */
+.tutorial-star-1 {
+	position: absolute;
+	left: 5.1%;
+	right: 89.02%;
+	top: 91.04%;
+	bottom: 4.48%;
+	background: #C271FF;
+}
+.tutorial-star-2 {
+	position: absolute;
+	left: 14.12%;
+	right: 80%;
+	top: 91.04%;
+	bottom: 4.48%;
+	background: #C271FF;
+}
+.tutorial-star-3 {
+	position: absolute;
+	left: 23.14%;
+	right: 70.98%;
+	top: 91.04%;
+	bottom: 4.48%;
+	background: #C271FF;
+}
+.tutorial-star-4 {
+	position: absolute;
+	left: 32.16%;
+	right: 61.96%;
+	top: 91.04%;
+	bottom: 4.48%;
+	background: #C271FF;
+}
+.tutorial-star-5 {
+	position: absolute;
+	left: 41.18%;
+	right: 52.94%;
+	top: 91.04%;
+	bottom: 4.48%;
+	background: #D8D8D8;
+}
+
+/* tutorial description */
+.tutorial-desc {
+	position: absolute;
+	height: 48px;
+	left: 5.1%;
+	right: 0%;
+	top: calc(50% - 48px/2 + 56.1px);
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: rgba(7, 22, 41, 0.501584);
+}
+
+/* tutorial title: Diagonal Smile */
+.tutorial-title-diagonal {
+	position: absolute;
+	height: 20px;
+	left: 5.1%;
+	right: 53.33%;
+	top: calc(50% - 20px/2 + 14.5px);
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	color: #071629;
+}
+
+/* tutorial title: Sad Smile */
+.tutorial-title-sad {
+	position: absolute;
+	height: 20px;
+	left: 5.1%;
+	right: 67.45%;
+	top: calc(50% - 20px/2 + 14.5px);
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	color: #071629;
+}
+
+/* tutorial title: Natural Smile */
+.tutorial-title-natural {
+	position: absolute;
+	height: 20px;
+	left: 5.1%;
+	right: 56.86%;
+	top: calc(50% - 20px/2 + 14.5px);
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	color: #071629;
+}
+
+/* tutorial title: Happy Smile */
+.tutorial-title-happy {
+	position: absolute;
+	height: 20px;
+	left: 5.1%;
+	right: 60%;
+	top: calc(50% - 20px/2 + 14.5px);
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	color: #071629;
+}
+
+/* tutorial preview */
+.tutorial-preview {
+	position: absolute;
+	width: 255px;
+	height: 154px;
+	left: 0px;
+	top: 0px;
+}
+
+/* tutorial preview mask */
+.tutorial-preview-mask {
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 54.03%;
+	background: #D8D8D8;
+	border-radius: 5px 5px 0px 0px;
+}
+
+/* tutorial preview bitmap */
+.tutorial-preview-bitmap-1 {
+	position: absolute;
+	left: -138.43%;
+	right: -83.53%;
+	top: -86.27%;
+	bottom: -181.49%;
+	background: url(Image.png);
+}
+.tutorial-preview-bitmap-2 {
+	position: absolute;
+	left: -57.65%;
+	right: 0%;
+	top: -69.25%;
+	bottom: -10.75%;
+	background: url(Image);
+}
+.tutorial-preview-bitmap-3 {
+	position: absolute;
+	left: -1.44%;
+	right: -0.92%;
+	top: -35.52%;
+	bottom: 18.81%;
+	background: url(Image);
+}
+.tutorial-preview-bitmap-4 {
+	position: absolute;
+	left: -43.33%;
+	right: -70.78%;
+	top: -31.34%;
+	bottom: 22.69%;
+	background: url(Image);
+}
+.tutorial-preview-bitmap-5 {
+	position: absolute;
+	left: -1.44%;
+	right: -0.92%;
+	top: -35.52%;
+	bottom: 18.81%;
+	background: url(Image.png);
+}
+
+/* tutorial play button */
+.tutorial-play {
+	position: absolute;
+	width: 64px;
+	height: 64px;
+	left: 96px;
+	top: 45px;
+}
+
+/* tutorial play oval */
+.tutorial-play-oval {
+	position: absolute;
+	left: 37.65%;
+	right: 37.25%;
+	top: 13.43%;
+	bottom: 67.46%;
+	background: #FFFFFF;
+	mix-blend-mode: normal;
+	opacity: 0.86;
+}
+
+/* tutorial play triangle */
+.tutorial-play-triangle {
+	position: absolute;
+	left: 48.43%;
+	right: 45.29%;
+	top: 20.75%;
+	bottom: 75.37%;
+	background: #C271FF;
+	transform: rotate(90deg);
+}
