@@ -868,3 +868,231 @@
 	background: #C271FF;
 	transform: rotate(90deg);
 }
+
+/* part_3_free_membership */
+.part-3-free-membership {
+    position: absolute;
+    width: 1440px;
+    height: 502px;
+    left: 0px;
+    top: 2109px;
+}
+
+/* background (free membership) */
+.free-membership-background {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #071629;
+}
+
+/* Free membership title */
+.free-membership-title {
+    position: absolute;
+    height: 40px;
+    left: 42.85%;
+    right: 40.9%;
+    top: calc(50% - 40px/2 - 161px);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #C271FF;
+}
+
+/* button (free membership) */
+.free-membership-btn {
+    position: absolute;
+    left: 44.38%;
+    right: 44.38%;
+    top: 80.88%;
+    bottom: 10.36%;
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+}
+
+/* button_background (free membership) */
+.free-membership-btn-bg {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #C271FF;
+    border-radius: 22px;
+}
+
+/* REGISTER FOR FREE (free membership) */
+.free-membership-register {
+    position: absolute;
+    height: 18px;
+    left: 13.27%;
+    right: 12.04%;
+    top: calc(50% - 18px/2);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* dot_1 */
+.dot-1 {
+    position: absolute;
+    left: 11.39%;
+    right: 70.76%;
+    top: 33.47%;
+    bottom: 36.06%;
+}
+
+/* dot_2 */
+.dot-2 {
+    position: absolute;
+    left: 31.11%;
+    right: 51.04%;
+    top: 33.47%;
+    bottom: 36.06%;
+}
+
+/* dot_3 */
+.dot-3 {
+    position: absolute;
+    left: 50.9%;
+    right: 31.25%;
+    top: 33.47%;
+    bottom: 36.06%;
+}
+
+/* dot_4 */
+.dot-4 {
+    position: absolute;
+    left: 70.76%;
+    right: 11.39%;
+    top: 33.47%;
+    bottom: 36.06%;
+}
+
+/* free membership description 1 */
+.free-membership-desc-1 {
+    position: absolute;
+    height: 52px;
+    left: 8.75%;
+    right: 8.75%;
+    top: calc(50% - 52px/2 + 50.5px);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* free membership description 2 */
+.free-membership-desc-2 {
+    position: absolute;
+    height: 52px;
+    left: 7%;
+    right: 7%;
+    top: calc(50% - 52px/2 + 50.5px);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* free membership description 3 */
+.free-membership-desc-3 {
+    position: absolute;
+    height: 52px;
+    left: 8.17%;
+    right: 8.17%;
+    top: calc(50% - 52px/2 + 50.5px);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* free membership description 4 */
+.free-membership-desc-4 {
+    position: absolute;
+    height: 52px;
+    left: 8.17%;
+    right: 8.17%;
+    top: calc(50% - 52px/2 + 50.5px);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* free membership title (desc) */
+.free-membership-title-desc {
+    position: absolute;
+    height: 26px;
+    left: 0.19%;
+    right: 0.19%;
+    top: calc(50% - 26px/2 - 1.5px);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* smile icon */
+.smile-icon {
+    position: absolute;
+    width: 43.67px;
+    height: 35.35px;
+    left: 106.71px;
+    top: 0.03px;
+}
+
+/* Path 1 */
+.path-1 {
+    position: absolute;
+    left: 43.58%;
+    right: 52.75%;
+    top: 0.02%;
+    bottom: 90.69%;
+    background: #C271FF;
+}
+
+/* Path 2 */
+.path-2 {
+    position: absolute;
+    left: 52.32%;
+    right: 44.01%;
+    top: 0.02%;
+    bottom: 90.69%;
+    background: #C271FF;
+}
+
+/* Path 3 */
+.path-3 {
+    position: absolute;
+    left: 41.52%;
+    right: 41.87%;
+    top: 12.82%;
+    bottom: 80.22%;
+    background: #C271FF;
+    transform: rotate(-7deg);
+}
