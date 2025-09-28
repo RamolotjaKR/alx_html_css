@@ -1096,3 +1096,94 @@
     background: #C271FF;
     transform: rotate(-7deg);
 }
+
+/* part_4_FAQ */
+.part-4-faq {
+    position: absolute;
+    width: 920px;
+    height: 707px;
+    left: 249px;
+    top: 2678px;
+}
+
+/* F.A.Q. title */
+.faq-title {
+    position: absolute;
+    height: 75px;
+    left: 44.24%;
+    right: 40.98%;
+    top: calc(50% - 75px/2 - 316px);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 75px;
+    text-align: center;
+    color: #071629;
+}
+
+/* Q_1 */
+.faq-q1 {
+    position: absolute;
+    left: 0%;
+    right: 61.96%;
+    top: 21.07%;
+    bottom: 44.7%;
+}
+
+/* Q_2 */
+.faq-q2 {
+    position: absolute;
+    left: 61.96%;
+    right: 0%;
+    top: 21.07%;
+    bottom: 44.7%;
+}
+
+/* Q_3 */
+.faq-q3 {
+    position: absolute;
+    left: 0%;
+    right: 61.96%;
+    top: 65.77%;
+    bottom: 0%;
+}
+
+/* Q_4 */
+.faq-q4 {
+    position: absolute;
+    left: 61.96%;
+    right: 0%;
+    top: 65.77%;
+    bottom: 0%;
+}
+
+/* FAQ answer */
+.faq-answer {
+    position: absolute;
+    height: 192px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 192px/2 + 25px);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(7, 22, 41, 0.501584);
+}
+
+/* FAQ question */
+.faq-question {
+    position: absolute;
+    height: 20px;
+    left: 0%;
+    right: 58.57%;
+    top: calc(50% - 20px/2 - 111px);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #071629;
+}
