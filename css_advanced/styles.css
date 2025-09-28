@@ -1187,3 +1187,196 @@
     line-height: 20px;
     color: #071629;
 }
+
+/* part_5_footer */
+.part-5-footer {
+    position: absolute;
+    width: 1440px;
+    height: 249px;
+    left: 0px;
+    top: 3469px;
+}
+
+/* background (footer) */
+.footer-background {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #071629;
+}
+
+/* logo (footer) */
+.footer-logo {
+    position: absolute;
+    left: 11.46%;
+    right: 76.81%;
+    top: 38.15%;
+    bottom: 49.8%;
+}
+
+/* SmileSchool text */
+.smileschool-text {
+    position: absolute;
+    height: 20px;
+    left: 32.54%;
+    right: 0%;
+    top: calc(50% - 20px/2 + 1px);
+    font-family: 'Coiny';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+/* smile icon (footer) */
+.footer-smile-icon {
+    position: absolute;
+    width: 36.39px;
+    height: 29.46px;
+    left: 0.59px;
+    top: 0.02px;
+}
+
+/* Path 1 (footer) */
+.footer-path-1 {
+    position: absolute;
+    left: 2.96%;
+    right: 92.39%;
+    top: 0.08%;
+    bottom: 60.43%;
+    background: #FFFFFF;
+}
+
+/* Path 2 (footer) */
+.footer-path-2 {
+    position: absolute;
+    left: 14.03%;
+    right: 81.32%;
+    top: 0.08%;
+    bottom: 60.43%;
+    background: #FFFFFF;
+}
+
+/* Path 3 (footer) */
+.footer-path-3 {
+    position: absolute;
+    left: 0.35%;
+    right: 78.6%;
+    top: 54.5%;
+    bottom: 15.95%;
+    background: #FFFFFF;
+    transform: rotate(-7deg);
+}
+
+/* copyright */
+.footer-copyright {
+    position: absolute;
+    height: 15px;
+    left: 46.67%;
+    right: 46.67%;
+    top: calc(50% - 15px/2 + 78px);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.35;
+}
+
+/* social_icons */
+.social-icons {
+    position: absolute;
+    width: 130px;
+    height: 30px;
+    left: 1070px;
+    top: 90px;
+}
+
+/* Instagram */
+.instagram-icon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1170px;
+    top: 90px;
+}
+
+/* Instagram shapes */
+.instagram-shape-1, .instagram-shape-2, .instagram-shape-3, .instagram-shape-4, .instagram-shape-5, .instagram-shape-6, .instagram-shape-7 {
+    position: absolute;
+    background: #FFFFFF;
+}
+.instagram-shape-1 {
+    left: 81.25%; right: 16.67%; top: 36.14%; bottom: 51.81%;
+}
+.instagram-shape-2 {
+    left: 81.74%; right: 17.15%; top: 38.96%; bottom: 54.62%;
+}
+.instagram-shape-3 {
+    left: 81.84%; right: 17.25%; top: 39.53%; bottom: 55.2%;
+}
+.instagram-shape-4 {
+    left: 82.52%; right: 17.35%; top: 40.07%; bottom: 59.16%;
+}
+.instagram-shape-5 {
+    left: 82.01%; right: 17.42%; top: 40.52%; bottom: 56.18%;
+}
+.instagram-shape-6 {
+    left: 82.11%; right: 17.52%; top: 41.1%; bottom: 56.76%;
+}
+.instagram-shape-7 {
+    left: 81.84%; right: 17.25%; top: 39.53%; bottom: 55.2%;
+}
+
+/* Twitter */
+.twitter-icon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1120px;
+    top: 90px;
+}
+
+/* Twitter shapes */
+.twitter-shape-1, .twitter-shape-2, .twitter-shape-3 {
+    position: absolute;
+    background: #FFFFFF;
+}
+.twitter-shape-1 {
+    left: 77.78%; right: 20.14%; top: 36.14%; bottom: 51.81%;
+}
+.twitter-shape-2 {
+    left: 78.3%; right: 20.69%; top: 39.76%; bottom: 55.42%;
+}
+.twitter-shape-3 {
+    left: 77.78%; right: 20.14%; top: 36.14%; bottom: 51.81%;
+}
+
+/* Facebook */
+.facebook-icon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1070px;
+    top: 90px;
+}
+
+/* Facebook shapes */
+.facebook-shape-1, .facebook-shape-2, .facebook-shape-3 {
+    position: absolute;
+    background: #FFFFFF;
+}
+.facebook-shape-1 {
+    left: 74.31%; right: 23.61%; top: 36.14%; bottom: 51.81%;
+}
+.facebook-shape-2 {
+    left: 75.07%; right: 24.4%; top: 38.96%; bottom: 54.49%;
+}
+.facebook-shape-3 {
+    left: 74.31%; right: 23.61%; top: 36.14%; bottom: 51.81%;
+}
