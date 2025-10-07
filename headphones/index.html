@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site">
+    <header>
+      <h1>Sample gallery for your pictures</h1>
+      <p class="lead">Replace the SVG placeholders in <code>images/</code> with your photos (keep file names or update markup).</p>
+    </header>
+
+    <main>
+      <section class="gallery" aria-label="Photo gallery">
+        <article class="card">
+          <a href="images/01_headphones_desktop@2x.png">
+            <div class="media">
+              <picture>
+                <source media="(min-width:901px)" srcset="images/01_headphones_desktop@2x.png">
+                <source media="(min-width:601px)" srcset="images/01_headphones_tablet@2x.png">
+                <img src="images/01_headphones_mobile@2x.png" alt="Headphones product photo" loading="lazy">
+              </picture>
+            </div>
+            <div class="meta">
+              <h3 class="title">Headphones — Classic</h3>
+              <p class="subtitle">High-fidelity over-ear headphones</p>
+            </div>
+          </a>
+        </article>
+
+        <article class="card">
+          <a href="images/01_headphones_desktop@2x.png">
+            <div class="media">
+              <picture>
+                <source media="(min-width:901px)" srcset="images/01_headphones_desktop@2x.png">
+                <source media="(min-width:601px)" srcset="images/01_headphones_tablet@2x.png">
+                <img src="images/01_headphones_mobile@2x.png" alt="Headphones side angle" loading="lazy">
+              </picture>
+            </div>
+            <div class="meta">
+              <h3 class="title">Headphones — Side View</h3>
+              <p class="subtitle">Refined craftsmanship and comfort</p>
+            </div>
+          </a>
+        </article>
+
+        <article class="card">
+          <a href="images/01_headphones_desktop@2x.png">
+            <div class="media">
+              <picture>
+                <source media="(min-width:901px)" srcset="images/01_headphones_desktop@2x.png">
+                <source media="(min-width:601px)" srcset="images/01_headphones_tablet@2x.png">
+                <img src="images/01_headphones_mobile@2x.png" alt="Headphones detail shot" loading="lazy">
+              </picture>
+            </div>
+            <div class="meta">
+              <h3 class="title">Headphones — Detail</h3>
+              <p class="subtitle">Premium materials and finish</p>
+            </div>
+          </a>
+        </article>
+
+        <article class="card">
+          <a href="images/01_headphones_desktop@2x.png">
+            <div class="media">
+              <picture>
+                <source media="(min-width:901px)" srcset="images/01_headphones_desktop@2x.png">
+                <source media="(min-width:601px)" srcset="images/01_headphones_tablet@2x.png">
+                <img src="images/01_headphones_mobile@2x.png" alt="Headphones lifestyle shot" loading="lazy">
+              </picture>
+            </div>
+            <div class="meta">
+              <h3 class="title">Headphones — Lifestyle</h3>
+              <p class="subtitle">Designed for music lovers</p>
+            </div>
+          </a>
+        </article>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
