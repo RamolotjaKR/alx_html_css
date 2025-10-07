@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact us</title>
+  <link rel="stylesheet" href="3-styles.css">
+</head>
+<body>
+
+  <section class="contact section" id="contact">
+    <div class="container">
+      <header class="section-header">
+        <h2 class="section-title">Contact us</h2>
+        <p class="section-subtitle">Have a question or want to work together? Send us a message and we'll get back to you.</p>
+      </header>
+
+      <div class="contact-grid">
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <div class="input-with-icon">
+              <input id="name" name="name" type="text" placeholder="Your full name" required />
+            </div>
+            <div class="field-error" id="error-name" aria-live="polite"></div>
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email</label>
+            <div class="input-with-icon">
+              <input id="email" name="email" type="email" placeholder="you@example.com" required />
+            </div>
+            <div class="field-error" id="error-email" aria-live="polite"></div>
+          </div>
+
+          <div class="form-row">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" placeholder="Subject (optional)" />
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Tell us more..." required></textarea>
+            <div class="field-error" id="error-message" aria-live="polite"></div>
+          </div>
+
+          <div class="form-footer">
+            <label class="checkbox"><input id="subscribe" name="subscribe" type="checkbox" /> Subscribe to updates</label>
+            <button type="submit" class="btn-primary">Send message</button>
+          </div>
+
+          <div id="formStatus" class="form-status" aria-live="polite"></div>
+        </form>
+
+        <aside class="contact-info">
+          <div class="info-card">
+            <span class="icon holberton_school-icon-ic_laptop" aria-hidden="true"></span>
+            <h4>Support</h4>
+            <p>Email: support@example.com</p>
+          </div>
+          <div class="info-card">
+            <span class="icon holberton_school-icon-ic_music" aria-hidden="true"></span>
+            <h4>Press</h4>
+            <p>Email: press@example.com</p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <script src="3-script.js" defer></script>
+</body>
+</html>
