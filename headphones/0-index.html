@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Headphones Hero</title>
+		<link rel="stylesheet" href="0-styles.css" />
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="container header-inner">
+				<a href="#" class="logo">
+					<img src="images/logo_headphones.png" alt="Brand logo" />
+				</a>
+				<nav class="main-nav" aria-label="Primary">
+					<ul>
+						<li><a href="#features">Features</a></li>
+						<li><a href="#shop">Shop</a></li>
+						<li><a href="#support">Support</a></li>
+					</ul>
+				</nav>
+				<a class="cta" href="#shop">Buy Now</a>
+			</div>
+		</header>
+
+		<main>
+			<section class="hero">
+				<div class="container hero-grid">
+					<div class="hero-content">
+						<small class="eyebrow">New arrival</small>
+						<h1>Immerse Yourself in Sound</h1>
+						<p>Experience studio-quality audio with unrivaled comfort and style. Our latest wireless headphones deliver crisp highs, deep bass, and hours of battery life.</p>
+						<p class="hero-actions">
+							<a class="btn primary" href="#shop">Shop Headphones</a>
+							<a class="btn secondary" href="#features">See Specs</a>
+						</p>
+					</div>
+
+					<div class="hero-images" aria-hidden="true">
+						<img class="img-1" src="images/headphones_hero_1.jpg" alt="Headphones on dark background" />
+						<img class="img-2" src="images/headphones_hero_2.jpg" alt="Close up of headphone speaker" />
+						<img class="decor" src="images/pentagone.png" alt="Decorative pentagon" />
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<div class="container">
+				<p>&copy; <span id="year"></span> Headphones. All rights reserved.</p>
+			</div>
+		</footer>
+
+		<script>
+			// set current year
+			document.getElementById('year').textContent = new Date().getFullYear();
+		</script>
+	</body>
+</html>
